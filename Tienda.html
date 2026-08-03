@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Tienda Música</title>
+    <link rel="stylesheet" href="Tienda.css">
+</head>
+<body>
+
+    <div id="consola-visual">
+        <h4>Carrito</h4>
+        <div id="consola-totales">
+            <p>Precio Total: $0</p>
+            <p>Precio Total en efectivo (10% off): $0</p>
+
+        </div>
+        <div id="consola-mensajes"></div>
+    </div>
+    
+    <div class="posText">
+        <h1>Tienda Aiki Groove</h1><br><br>
+        <h3>Indice Productos</h3>
+
+
+
+
+
+
+
+
+        <br><br>
+
+
+
+
+        <section id="Indice">
+        <a href="#Discos">Discos</a>
+        <br><br>
+        <a href="#Stickers">Stickers</a>
+        <br><br>
+        <a href="#Libros">Libros</a>
+        <br><br>
+        </section>
+
+    </div>
+
+
+
+
+
+
+<section id="Discos">
+    <h2>Productos Discos</h2>
+
+
+    <br>
+    <div class="posDisco">
+
+
+        <div class="tarjeta-disco">
+                <h4>MEDIAVIDA</h4>
+                <a href="https://youtube.com">
+                    <img src="Albums/MEDIAVIDA.jpg" alt="MEDIAVIDA underaiki" width="225" height="225">
+                </a>
+                <button onclick="agregarDisco('MEDIAVIDA',5000,'vinilo_mediavida')">Agregar Disco</button>
+                <p>pasar a vinilo (10k extra)
+                    <input type="checkbox" id="vinilo_mediavida" name="opcion-vinilo">
+                </p>
+            </div>
+
+
+            <div class="tarjeta-disco">
+                <h4>Desafíos</h4>
+                <a href="https://youtube.com">
+                    <img src="Albums/Desafios.jpg" alt="Las Pastillas del Abuelo - Desafíos" width="225" height="225">
+                </a>
+                <button onclick="agregarDisco('Desafíos',10000,'vinilo_desafios')">Agregar Disco</button>
+                <p>pasar a vinilo (10k extra)
+                    <input type="checkbox" name="opcion-vinilo" id="vinilo_desafios">
+                </p>
+            </div>
+
+
+            <div class="tarjeta-disco">
+                <h4>American Idiot</h4>
+                <a  href="https://www.youtube.com/watch?v=Ee_uujKuJMI&list=OLAK5uy_n1zTK6TctMnEtlBf3mmpqe5h3-Jafg_so">
+                    <img src="Albums/AmericanIdiot.jpg" alt="American Idiot - green day" width="225" height="225">
+                </a>
+                <button onclick = "agregarDisco('American Idiot',11000,'vinilo_AmericanIdiot')"> Agregar Disco</button>
+                <p>pasar a vinilo (10k extra)
+                    <input type="checkbox" id="vinilo_AmericanIdiot" name="opcion-vinilo">
+                </p>
+            </div>
+            <div class="tarjeta-disco">
+                <h4>Vida</h4>
+                <a  href="https://www.youtube.com/watch?v=ApDOan6yT3c&list=OLAK5uy_nSqJEXL9Pqok2t9Tt3Mpr-wnX5bSoPH4E">
+                    <img src="Albums/Vida.jpg" alt="Vida - Canserbero" width="225" height="225">
+                </a>
+                <button onclick = "agregarDisco('Vida',15000,'vinilo_Vida')"> Agregar Disco</button>
+                    <p>pasar a vinilo (10k extra)
+                <input type="checkbox" id="vinilo_Vida" name="opcion-vinilo">
+                </p>
+            </div>
+        
+            <div class="tarjeta-disco">
+                <h4>One X</h4>
+                <a  href="https://www.youtube.com/watch?v=diz8JwXNX3w&list=PLQwPvYVIiaGNTIh8WcBvvDI7fxzWye-Ly">
+                    <img src="Albums/One X.jpg" alt="One X - Three Days Grace" width="225" height="225">
+                </a>
+                <button onclick = "agregarDisco('One X',15000,'vinilo_OneX')"> Agregar Disco</button>
+                    <p>pasar a vinilo (10k extra)
+                <input type="checkbox" id="vinilo_OneX" name="opcion-vinilo">
+                </p>
+            </div>
+        
+            <div class="tarjeta-disco">
+                <h4>joseo exclusive club</h4>
+                <a  href="https://www.youtube.com/watch?v=l9fN-8NjrvI&list=OLAK5uy_n_dmtzA0IWImBN3fbUBUl_WgD-YSaMZaI">
+                    <img src="Albums/joseo exclusive club.jpg" alt="joseo exclusive club - Lolo" width="225" height="225">
+                </a>
+                <button onclick = "agregarDisco('joseo exclusive club',3000,'vinilo_Joseo')"> Agregar Disco</button>
+                    <p>pasar a vinilo (10k extra)
+                <input type="checkbox" id="vinilo_Joseo" name="opcion-vinilo">
+                </p>
+            </div>
+        
+            <div class="tarjeta-disco">
+                <h4>To Pimp A Butterfly</h4>
+                <a  href="https://www.youtube.com/watch?v=NdRV-Cz-dbU&list=PL-Pn_-Segdj2gVk7kdLe0KCh5_juqLhtu">
+                    <img src="Albums/To Pimp A Butterfly.jpg" alt="To Pimp A Butterfly - Kendrick Lamar" width="225" height="225">
+                </a>
+                <button onclick = "agregarDisco('To Pimp A Butterfly',12000,'vinilo_Pimp')"> Agregar Disco</button>
+                    <p>pasar a vinilo (10k extra)
+                <input type="checkbox" id="vinilo_Pimp" name="opcion-vinilo">
+                </p>
+            </div>
+
+
+            <div class="tarjeta-disco">
+                <h4>Mezmerize</h4>
+                <a  href="https://www.youtube.com/watch?v=D_RCCXH3PPg&list=OLAK5uy_kTJeZXfriqNa_00DjGWvAIICYRRiOISGs&pp=8AUB">
+                    <img src="Albums/Mezmerize.jpg" alt="Mezmerize - System Of A Down" width="225" height="225">
+                </a>
+                <button onclick = "agregarDisco('Mezmerize',10000,'vinilo_Mezmerize')"> Agregar Disco</button>
+                    <p>pasar a vinilo (10k extra)
+                <input type="checkbox" id="vinilo_Mezmerize" name="opcion-vinilo">
+                </p>
+            </div>
+
+
+            <div class="tarjeta-disco">
+                <h4>¡Bang! ¡Bang!... Estás Liquidado</h4>
+            <a  href="https://www.youtube.com/watch?v=823zjFvDMTc&list=OLAK5uy_n67sw4fEbyRvpAw6Ay8o-9s5UJ9162FiI">
+            <img src="Albums/¡Bang! ¡Bang!... Estás Liquidado.jpg" alt="¡Bang! ¡Bang!... Estás Liquidado - PR" width="225" height="225">
+            </a>
+            <button onclick = "agregarDisco('¡Bang! ¡Bang!... Estás Liquidado',8000,'vinilo_Bang')"> Agregar Disco</button>
+            <p>pasar a vinilo (10k extra)
+            <input type="checkbox" id="vinilo_Bang" name="opcion-vinilo">
+            </p>
+            </div>
+            
+        </div>
+
+        <div class="posInd">
+            <a href="#Indice">Indice</a>
+        </div>
+
+
+
+    <br>
+    </div>
+
+</section>  
+
+
+
+
+<section id="Stickers">
+    <h2>Productos Stickers</h2>
+
+
+
+
+
+
+    <div class="sticker-card">
+
+
+        <div class="sticker-card" onclick="agregarSticker('Lego Batman', 2500)">
+            <img src="Stickers/Lego Batman.jpg" alt="Lego Batman" width="225" height="225" class="sticker-img" title="Lego Batman">
+           
+        </div>
+
+
+
+
+        <div class="sticker-card" onclick="agregarSticker('Hamster Detective', 2500)">
+            <img src="Stickers/Hamster Detective.jpg" alt="Hamster Detective" width="225" height="225" class="sticker-img" title="Hamster Detective">
+           
+        </div>
+       
+        <div class="sticker-card" onclick="agregarSticker('Emo Pibble', 2500)">
+            <img src="Stickers/Emo Pibble.jpg" alt="Emo Pibble" width="225" height="225" class="sticker-img" title="Emo Pibble">
+           
+        </div>
+
+
+
+
+        <div class="sticker-card" onclick="agregarSticker('Barto', 2500)">
+            <img src="Stickers/Barto.jpg" alt="Barto" width="225" height="225" class="sticker-img" title="Barto">
+           
+        </div>
+
+
+
+
+        <div class="sticker-card" onclick="agregarSticker('Hamster shh', 2500)">
+            <img src="Stickers/Hamster shh.png" alt="Hamster shh" width="225" height="225" class="sticker-img" title="Hamster shh">
+       
+        </div>
+
+
+
+
+        <div class="sticker-card" onclick="agregarSticker('Dunk', 2500)">
+            <img src="Stickers/Dunk.jpg" alt="Dunk" width="225" height="225" class="sticker-img" title="Dunk">
+           
+        </div>
+
+
+
+
+
+
+
+
+        <div class="sticker-card" onclick="agregarSticker('Speed', 2500)">
+            <img src="Stickers/Speed.jpg" alt="Speed" width="225" height="225" class="sticker-img" title="Speed">
+           
+        </div>
+
+
+        <div class="sticker-card" onclick="agregarSticker('Isaac POG', 2500)">
+            <img src="Stickers/Isaac POG.jpg" alt="Isaac POG" width="225" height="225" class="sticker-img" title="Isaac POG">
+           
+        </div>
+    </div>
+
+    <div class="posInd">
+        <a href="#Indice">Indice</a>
+    </div>
+</section>
+
+
+
+
+
+
+<section id="Libros">
+    <h2>Productos Libros</h2>
+    <div class="posLib">
+        <br><br><br><br>
+        <div class="Libro-card">
+           
+            <h4>No Country For Old Men</h4>
+            <img src="Libros/No country.jpg" alt="No Country For Old Men - Cormac McCarthy" width="250" height="350">
+            <br><br>
+            <button onclick = "agregarLibro('No Country For Old Men',8000,'encuadernacion1')"> Agregar Libro</button>
+            <br><br>
+            <P>Tapa dura <input type="radio" name="encuadernacion1" value="dura" > </P>
+            <P>Tapa blanda <input type="radio" name="encuadernacion1" value="blanda"  id=""> </P>
+        </div>
+
+
+        <div class="Libro-card">
+            <h4>El resplandor</h4>
+            <img src="Libros/El resplandor.jpg" alt="El resplandor - Stephen King" width="250" height="350">
+            <br><br>
+            <button onclick = "agregarLibro('El resplandor',7000,'encuadernacion2')"> Agregar Libro</button>
+            <br><br>
+            <P>Tapa dura <input type="radio" name="encuadernacion2" value="dura"> </P>
+            <P>Tapa blanda <input type="radio" name="encuadernacion2" value="blanda" > </P>
+        </div>
+
+
+        <div class="Libro-card">
+            <h4>La Odisea</h4>
+            <img src="Libros/La odisea.jpg" alt="Odisea - Homero" width="250" height="350">
+            <br><br>
+            <button onclick = "agregarLibro('La Odisea',11000,'encuadernacion3')"> Agregar Libro</button>
+            <br><br>
+            <P>Tapa dura <input type="radio" name="encuadernacion3" value="dura"  id="tapa dura"> </P>
+            <P>Tapa blanda <input type="radio" name="encuadernacion3" value="blanda" id="tapa blanda"> </P>
+        </div>
+       
+        <div class="Libro-card">
+            <h4>Figth Club</h4>
+            <img src="Libros/Fight club.jpg" alt="Figth Club - Chuck Palahniuk" width="250" height="350">
+            <br><br>
+            <button onclick = "agregarLibro('Figth Club',12000,'encuadernacion4')"> Agregar Libro</button>
+            <br><br>
+            <P>Tapa dura <input type="radio" name="encuadernacion4" value="dura" > </P>
+            <P>Tapa blanda <input type="radio" name="encuadernacion4" value="blanda" > </P>
+        </div>
+
+
+        <div class="Libro-card">
+            <h4> This Thing Called Life</h4>
+            <img src="Libros/Called life.jpg" alt="This Thing Called Life - Neal Karlen" width="250" height="350">
+            <br><br>
+            <button onclick = "agregarLibro('This Thing Called Life',9000,'encuadernacion5')"> Agregar Libro</button>
+            <br><br>
+            <P>Tapa dura <input type="radio" name="encuadernacion5" value="dura" > </P>
+            <P>Tapa blanda <input type="radio" name="encuadernacion5" value="blanda" > </P>
+        </div>
+       
+        <div class="Libro-card">
+            <h4> Así es la puta vida</h4>
+            <img src="Libros/Asi es la puta vida.jpg" alt="Asi es la puta vida - Jordi Wild" width="250" height="350">
+            <br><br>
+            <button onclick = "agregarLibro(' Así es la puta vida',10000,'encuadernacion6')"> Agregar Libro</button>
+            <br><br>
+            <P>Tapa dura <input type="radio" name="encuadernacion6" value="dura" > </P>
+            <P>Tapa blanda <input type="radio" name="encuadernacion6" value="blanda" > </P>
+        </div>
+       
+        <div class="Libro-card">
+            <h4> Los secretos de youtube</h4>
+            <img src="Libros/Los secretos de youtube.jpg" alt="Los secretos de youtube - Thegrefg" width="250" height="350">
+            <br><br>
+            <button onclick = "agregarLibro('Los secretos de youtube',4000,'encuadernacion7')"> Agregar Libro</button>
+            <br><br>
+            <P>Tapa dura <input type="radio" name="encuadernacion7" value="dura" > </P>
+            <P>Tapa blanda <input type="radio" name="encuadernacion7" value="blanda" > </P>
+        </div>
+   
+        <div class="Libro-card">
+            <h4> Wigetta un viaje mágico</h4>
+            <img src="Libros/Wigetta un viaje mágico.jpg" alt="Wigetta - Vegeta777 y Willyrex" width="250" height="350">
+            <br><br>
+            <button onclick = "agregarLibro('Wigetta un viaje mágico',5000,'encuadernacion8')"> Agregar Libro</button>
+            <br><br>
+            <P>Tapa dura <input type="radio" name="encuadernacion8" value="dura" > </P>
+            <P>Tapa blanda <input type="radio" name="encuadernacion8" value="blanda" > </P>
+        </div>
+
+
+        <div class="Libro-card">
+            <h4> Mikecrack y la estrella maldita</h4>
+            <img src="Libros/Mikecrack.jpg" alt="Mikecrack y la estrella maldita - Mikecrack" width="250" height="350">
+            <br><br>
+            <button onclick = "agregarLibro('Mikecrack y la estrella maldita',3000,'encuadernacion9')"> Agregar Libro</button>
+            <br><br>
+            <P>Tapa dura <input type="radio" name="encuadernacion9" value="dura" > </P>
+            <P>Tapa blanda <input type="radio" name="encuadernacion9" value="blanda"> </P>
+        </div>
+       
+    </div>
+    <div class="posInd">
+        <a href="#Indice">Indice</a>
+    </div>
+</section>
+
+
+
+
+<script>
+let totalCompra = 0;
+
+function actualizarTotales() {
+    let totalConDescuento = totalCompra;
+
+    if (totalCompra > 10000) {
+        totalConDescuento = totalCompra * 0.90;
+    }
+
+    const totalEfectivo = totalConDescuento * 0.95;
+
+    document.getElementById("consola-totales").innerHTML = `
+        <p>Precio Total: $${totalCompra.toFixed(0)}</p>
+        ${totalCompra > 10000 ? `<p>Precio Total mayor a $10000 (5% off): $${totalConDescuento}</p>` : ""}
+        <p>Precio Total en efectivo (10% off): $${totalEfectivo}</p>
+    `;
+}
+
+function logVisual(mensaje) {
+    const contenedor = document.getElementById("consola-mensajes");
+    const linea = document.createElement("p");
+    linea.textContent = mensaje;
+    contenedor.appendChild(linea);
+    contenedor.scrollTop = contenedor.scrollHeight;
+}
+function agregarDisco(nombreDisco,precioBase,idCheckbox) {
+    let formato = "CD";
+   
+    const quiereVinilo = document.getElementById(idCheckbox).checked;
+   
+    if (quiereVinilo) {
+        precioBase += 10000;
+        formato = "Vinilo";
+    }
+   
+    const mensajeDisc=`Agregado al carrito: ${nombreDisco} (${formato}) - Total: $${precioBase}`;
+    logVisual(mensajeDisc);
+    totalCompra += precioBase;
+    actualizarTotales();
+}
+
+
+
+
+function agregarLibro(nombreLibro,PrecioLibro,nameTapa){
+
+
+    const tapaSeleccionada = document.querySelector(`input[name="${nameTapa}"]:checked`);
+
+
+    if (!tapaSeleccionada) {
+        alert("Por favor, selecciona un tipo de tapa antes de agregar el libro.");
+        return;
+    }
+
+
+   
+    const formato = tapaSeleccionada.value;
+   
+    const mensajeLib=`Agregado al carrito: ${nombreLibro} tapa (${formato}) - Total: $${PrecioLibro}`;
+    logVisual(mensajeLib);
+    totalCompra += PrecioLibro;
+    actualizarTotales();
+}
+
+
+
+
+function agregarSticker(nombreSticker,PrecioSticker){
+    let formato = "Sticker";
+    const mensajeStick=`Agregado al carrito: ${nombreSticker} (Sticker) - Total: $${PrecioSticker}`;
+    logVisual(mensajeStick);
+    totalCompra += PrecioSticker;
+    actualizarTotales();
+}
+
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

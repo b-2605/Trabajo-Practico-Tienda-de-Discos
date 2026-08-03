@@ -1,0 +1,131 @@
+.sticker-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.sticker-card img {
+   border: 1px solid #000000;
+}
+
+
+.tarjeta-disco img{
+    border: 1px solid #000000;
+}
+
+
+.posDisco {
+  display: flex;
+  flex-wrap: wrap;            
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.tarjeta-disco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  width: 250px;          
+  text-align: center;
+}
+
+
+.tarjeta-disco button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+
+.Libro-card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;    
+  gap: 10px;
+}
+.Libro-card img{
+    border: 1px solid #000000;
+}
+
+
+.posLib{
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 10px;  
+  justify-content: center;
+  padding: 20px;        
+}
+
+
+.posLib button{
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+
+.posText{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.posInd{
+    text-align: center;
+}
+
+
+body {
+  background-color: #07071b;
+  color: #f1f1f1;
+}
+
+button {
+  background-color: #555555;
+  color: #f1f1f1;
+  border: none;
+  border-radius: 4px;
+}
+ 
+#consola-visual {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 250px;
+  height: 200px;
+  background-color: #07071b;
+  border: 1px solid     #555555;
+  border-radius: 6px;
+  padding: 8px;
+  overflow-y: auto;
+  z-index: 1000;
+  font-size: 12px;
+}
+ 
+#consola-visual h4 {
+  margin: 0 0 6px 0;
+  text-align: center;
+  color: #f1f1f1;
+}
+ 
+#consola-mensajes p {
+  margin: 2px 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 2px;
+}
+
+#consola-totales {
+  border-bottom: 2px solid #555555  ;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+}
+ 
+#consola-totales p {
+  margin: 2px 0;
+}
